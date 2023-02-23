@@ -4,31 +4,37 @@
 
 
 .dots-custom{
-    position: relative;
-    background: blue;
-    margin-top: 10px;
-    padding: 20px 0px;
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
     display: flex !important;
     justify-content: center;
     gap: 1rem;
 }
 
 .dots-custom li{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    background: red;
-    padding: 10px;
+    background: white;
+    padding: 7px;
 }
 
 .dots-custom li.slick-active{
-    background: purple;
+    background: #3455fc;
 }
+
+
 
 .dots-custom li button{
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    background: yellow;
+    background: #3455fc;
+    color: transparent;
+}
+
+.dots-custom li.slick-active button{
+    background: white;
     color: transparent;
 }

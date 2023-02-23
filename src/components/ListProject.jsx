@@ -34,7 +34,7 @@ const ListProject = () => {
     }
 
     const [indexSlide, setIndexSlide] = useState(0)
-    console.log(settings)
+  
 
     return (
         <Slider
