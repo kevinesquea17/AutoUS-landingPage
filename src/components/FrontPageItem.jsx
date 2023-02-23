@@ -13,8 +13,8 @@ const FrontPageItem = ({front, slider}) => {
   }
 
   return (
-    <div className='relative h-screen w-full flex items-center justify-center'>
-      <img src={front.image} alt="" className='absolute h-full object-cover'/>
+    <div className='relative h-screen w-[100vw] flex items-center justify-center'>
+      <img src={front.image} alt="" className='absolute w-full h-full object-cover'/>
       <div className='relative flex flex-col justify-center items-center max-w-[30%]'>
         <h2 className='sm:text-8xl text-6xl font-bold text-white text-center uppercase'>{front.name}</h2>
         <button className='bg-blue-600 sm:py-4 py-4 sm:px-12 px-8 text-white font-bold uppercase text-sm mt-4 rounded'>Read More</button>

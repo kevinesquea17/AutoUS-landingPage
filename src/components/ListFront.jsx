@@ -13,7 +13,7 @@ const ListFront = () => {
         slidesToShow: 1,
         speed: 2000,
         fade: true,
-        className: 'h-screen w-full overflow-hidden absolute',
+        className: 'h-screen w-[100vw] overflow-hidden absolute',
         dots: true,
         dotsClass: 'dots-custom',
     }
