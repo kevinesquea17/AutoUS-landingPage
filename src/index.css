@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.dots-custom{
+    position: relative;
+    background: blue;
+    margin-top: 10px;
+    padding: 20px 0px;
+    display: flex !important;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.dots-custom li{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: red;
+    padding: 10px;
+}
+
+.dots-custom li.slick-active{
+    background: purple;
+}
+
+.dots-custom li button{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: yellow;
+    color: transparent;
+}

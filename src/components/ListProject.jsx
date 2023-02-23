@@ -10,6 +10,7 @@ const ListProject = () => {
 
     const settings = {
         className: "center",
+        easing: 'linear',
         centerMode: true,
         infinite: true,
         autoplay: true,
@@ -33,6 +34,7 @@ const ListProject = () => {
     }
 
     const [indexSlide, setIndexSlide] = useState(0)
+    console.log(settings)
 
     return (
         <Slider
