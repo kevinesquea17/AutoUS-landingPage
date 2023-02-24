@@ -8,7 +8,7 @@ import SocialIcons from './SocialIcons'
 const FrontPage = () => {
 
     return (
-        <section className='h-screen w-full relative overflow-hidden'>
+        <section className='sm:h-screen h-[80vh]  w-full relative overflow-hidden'>
             <Header />
             <ListFront />
             <div className='w-[80%] mx-auto absolute top-[30%] left-[10%]'>

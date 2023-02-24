@@ -5,14 +5,14 @@ import {IoLogoTwitter} from 'react-icons/io'
 const SocialIcons = () => {
   return (
     <div className='sm:flex flex-col gap-4 hidden'>
-        <div className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600'>
-            <FaFacebookF className='text-white text-xs'/>
+        <div className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 group hover:bg-white transition duration-300 ease-out'>
+            <FaFacebookF className='text-white text-xs group-hover:text-blue-600'/>
         </div>
-        <div className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600'>
-            <FaInstagram className='text-white text-xs'/>
+        <div className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 group hover:bg-white transition duration-300 ease-out'>
+            <FaInstagram className='text-white text-xs group-hover:text-blue-600'/>
         </div>
-        <div className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600'>
-            <IoLogoTwitter className='text-white text-xs'/>
+        <div className='flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 group hover:bg-white transition duration-300 ease-out'>
+            <IoLogoTwitter className='text-white text-xs group-hover:text-blue-600'/>
         </div>
     </div>
   )

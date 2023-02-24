@@ -1,13 +1,22 @@
 import React from 'react'
 import RecentProjects from '../components/RecentProjects'
 import FrontPage from '../components/FrontPage'
+import SectionServices from '../components/SectionServices'
+import SectionPricing from '../components/SectionPricing'
+import SectionTestimonials from '../components/SectionTestimonials'
+import { SliderProvider } from '../context/SliderContext'
 
 const HomePage = () => {
   return (
-    <main className='font-Rajdhani'>
+    <SliderProvider>
+      <main className='font-Rajdhani'>
         <FrontPage />
+        <SectionServices />
         <RecentProjects />
-    </main>
+        <SectionPricing />
+        <SectionTestimonials />
+      </main>
+    </SliderProvider>
   )
 }
 

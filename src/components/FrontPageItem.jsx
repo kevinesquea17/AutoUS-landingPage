@@ -20,11 +20,11 @@ const FrontPageItem = ({front, slider}) => {
         <button className='bg-blue-600 sm:py-4 py-4 sm:px-12 px-8 text-white font-bold uppercase text-sm mt-4 rounded'>Read More</button>
       </div>
       <div className='flex absolute bottom-[8%] right-[10%] items-center space-x-6 z-20'>
-          <div className='w-14 h-14 rounded bg-white flex justify-center items-center' onClick={() => prev()}>
-            <SlArrowLeft className='text-xl text-blue-600' />
+          <div className='w-14 h-14 rounded bg-white flex justify-center items-center cursor-pointer group hover:bg-blue-600 transition duration-300 ease-out' onClick={() => prev()}>
+            <SlArrowLeft className='text-xl text-blue-600 group-hover:text-white' />
           </div>
-          <div className='w-14 h-14 rounded bg-white flex justify-center items-center' onClick={() => next()}>
-            <SlArrowRight className='text-xl text-blue-600 font-bold' />
+          <div className='w-14 h-14 rounded bg-white flex justify-center items-center cursor pointer group hover:bg-blue-600 transition duration-300 ease-out' onClick={() => next()}>
+            <SlArrowRight className='text-xl text-blue-600 font-bold group-hover:text-white' />
           </div>
       </div>
     </div>
