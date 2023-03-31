@@ -1,29 +1,29 @@
-import Image1 from '../assets/image1.jpg'
-import Image2 from '../assets/image2.jpg'
-import Image3 from '../assets/image3.jpg'
-import Image4 from '../assets/image4.jpg'
+import Image1 from '../assets/image1.avif'
+import Image2 from '../assets/image2.avif'
+import Image3 from '../assets/image3.avif'
+import Image4 from '../assets/image4.avif'
 
 //Frontpages
-import Front01 from '../assets/front01.jpg'
-import Front02 from '../assets/front02.jpg'
-import Front03 from '../assets/front03.jpg'
+import Front01 from '../assets/front01.avif'
+import Front02 from '../assets/front02.avif'
+import Front03 from '../assets/front03.avif'
 
 
 //Services
-import Services01 from '../assets/services01.jpg'
-import Services02 from '../assets/services02.jpg'
-import Services03 from '../assets/services03.jpg'
-import Services04 from '../assets/services04.jpg'
-import Services05 from '../assets/services05.jpg'
-import Services06 from '../assets/services06.jpg'
-import Services07 from '../assets/services07.jpg'
-import Services08 from '../assets/services08.jpg'
+import Services01 from '../assets/services01.avif'
+import Services02 from '../assets/services02.avif'
+import Services03 from '../assets/services03.avif'
+import Services04 from '../assets/services04.avif'
+import Services05 from '../assets/services05.avif'
+import Services06 from '../assets/services06.avif'
+import Services07 from '../assets/services07.avif'
+import Services08 from '../assets/services08.avif'
 
 //Testimonials
-import Person01 from '../assets/person01.jpg'
-import Person02 from '../assets/person02.jpg'
-import Person03 from '../assets/person03.jpg'
-import Person04 from '../assets/person04.jpg'
+import Person01 from '../assets/person01.avif'
+import Person02 from '../assets/person02.avif'
+import Person03 from '../assets/person03.avif'
+import Person04 from '../assets/person04.avif'
 
 export const projects = [
     {id: 1, image: Image1},
