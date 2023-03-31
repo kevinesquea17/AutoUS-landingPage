@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Background02 from '../assets/background02.jpg'
+import Background02 from '../assets/background02.avif'
 import Title from './Title'
 import ListTestimonial from './ListTestimonial'
 import {BsArrowRight, BsArrowLeft} from 'react-icons/bs'
